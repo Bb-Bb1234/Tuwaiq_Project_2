@@ -1,11 +1,40 @@
 const {user} = require('../db')
 
+const tsetId = function(req,res){
+    const foundUser = user.find((elem) => {
+        return elem.id == req.params.id
+    })
+    res.send(foundUser.AvailableTest[3]
+  );
+}
+const tsetRid = function(req,res){
+    const foundUser = user.find((elem) => {
+        return elem.id == req.params.id
+    })
+    res.send(foundUser.RecordedTests[3]
+  );
+}
+const tsetCid = function(req,res){
+    const foundUser = user.find((elem) => {
+        return elem.id == req.params.id
+    })
+    res.send(foundUser.CanceledTest[3]
+  );
+}
+const tsetTid = function(req,res){
+    const foundUser = user.find((elem) => {
+        return elem.id == req.params.id
+    })
+    res.send(foundUser.TestResult[3]
+  );
+}
 
 const getAllUser = (req,res)=>{
     res.send(user)
 }
 
 const getUser = (req,res)=>{
+    console.log(req.params.id)
     console.log(typeof user)
     const foundUser = user.filter((elem, i) =>{
         return i == req.params.id 
@@ -24,9 +53,9 @@ const getUser = (req,res)=>{
 
 const addNewUser = (req,res)=>{
     const addedUser = {
-        name: req.body.name,
-        job: req.body.job,
-        hobby: req.body.hobby,
+        email: req.body.email,
+        userName: req.body.userName,
+        password: req.body.password,
     }
 
     user.push(addedUser)
@@ -38,11 +67,11 @@ const updateUser = (req,res)=>{
     const userId = req.query.id
     user.forEach((elem,i)=>{
         if(i == userId){
-            elem.name = req.body.name;
-            elem.job = req.body.job;
-            elem.hobby = req.body.hobby;
+            elem.email = req.body.email;
+            elem.userName = req.body.userName;
+            elem.password = req.body.password;
         }
     })
 }
 
-module.exports = {getAllUser,getUser,updateUser,addNewUser}
+module.exports = {getAllUser,getUser,updateUser,addNewUser, tsetId, tsetRid, tsetCid, tsetTid}
