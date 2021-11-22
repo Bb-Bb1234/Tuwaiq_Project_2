@@ -147,8 +147,8 @@ const user = [
         userName:"mohammed",
         password:"0115599"
     },
-    {id: 1,
-        name:"mohammed",
+    {id:2,
+        name:"Ahmad",
         RecordedTest:[
             {
                 test:"",
@@ -282,58 +282,113 @@ const user = [
         ],
          AvailableTest:[
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات المصلحين ديسمبر  2020م",  
+            RecordingStatus:"تسجيل متقدم",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار نواتج التعلم – جامعة الملك سعود – يوليو 2019",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي / انجليزي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات اللغة الإنجليزية لمرشحي الجامعة السعودية الإلكترونية – مايو 2019",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"محوسب",
 
            },
+           {
+            TestNaem:"الاختيار الوظيفي - اختبار القدرة المعرفية العامة – رجال – نوفمبر 2018م",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"أختبار مستوى تحديد القدرات الجامعية - English Placement Test (EPT)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"اختبار القدرات العامة للجامعيين (على الحاسب الآلي)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي",
+            TestMechanism:"محوسب",
+
+           },
+
         ],
         RecordedTests:[
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار التخصصي - ربيع الثاني 1432هـ ",
+                TestHeadquarters:"جامعة حائل - كلية الطب",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:" 1432/04/15 هـ-2015/02/04 مساءا",
+                PaymentMethod:"تحويل بنكي",
 
             },
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار العام - جمادى الاخرة  1436هـ",
+                TestHeadquarters:"جامعة حائل - كلية الحاسب الالي ونظم المعلومات",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:"1436/06/12 هـ-2015/12/01 مساءا",
+                PaymentMethod:"ايداع صراف",
 
             },
         ],
         CanceledTest:[
             {
-                TestHeadquarters:"",
-                TestDate:"",
-                CancellationDate:"",
-                TestMechanism:"",
-                ReasonCancellation:"",  
+                TestNaem:"اختبار تجديد الرخصه للمعلمين – رجال – الاختبار التخصصي - نوفمبر 2019",
+                TestHeadquarters:"جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/04/02 هـ-2019/11/29 مساءً",
+                CancellationDate:"1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
+            },
+            {
+                TestNaem:"اختبار المعلمين الجدد – رجال – الاختبار العام - نوفمبر 2017",
+                TestHeadquarters:" جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/03/28 هـ-2019/11/25 مساءً",
+                CancellationDate:" 1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
             },
         ],
         TestResult:[
             {
-                Test:"",
-                Result:"",
-                TestDate:"",
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:70,
+                TestDate:"1431/05/22 - 2010/05/06",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:56,
+                TestDate:"1431/01/14 - 2009/12/31",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:65,
+                TestDate:"1430/05/12 - 2009/05/07",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:72,
+                TestDate:" 1430/01/11 - 2009/01/08",
+
             },
         ],
         date:"22/5/1441",
@@ -352,58 +407,113 @@ const user = [
         ],
          AvailableTest:[
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات المصلحين ديسمبر  2020م",  
+            RecordingStatus:"تسجيل متقدم",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار نواتج التعلم – جامعة الملك سعود – يوليو 2019",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي / انجليزي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات اللغة الإنجليزية لمرشحي الجامعة السعودية الإلكترونية – مايو 2019",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"محوسب",
 
            },
+           {
+            TestNaem:"الاختيار الوظيفي - اختبار القدرة المعرفية العامة – رجال – نوفمبر 2018م",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"أختبار مستوى تحديد القدرات الجامعية - English Placement Test (EPT)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"اختبار القدرات العامة للجامعيين (على الحاسب الآلي)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي",
+            TestMechanism:"محوسب",
+
+           },
+
         ],
         RecordedTests:[
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار التخصصي - ربيع الثاني 1432هـ ",
+                TestHeadquarters:"جامعة حائل - كلية الطب",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:" 1432/04/15 هـ-2015/02/04 مساءا",
+                PaymentMethod:"تحويل بنكي",
 
             },
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار العام - جمادى الاخرة  1436هـ",
+                TestHeadquarters:"جامعة حائل - كلية الحاسب الالي ونظم المعلومات",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:"1436/06/12 هـ-2015/12/01 مساءا",
+                PaymentMethod:"ايداع صراف",
 
             },
         ],
         CanceledTest:[
             {
-                TestHeadquarters:"",
-                TestDate:"",
-                CancellationDate:"",
-                TestMechanism:"",
-                ReasonCancellation:"",  
+                TestNaem:"اختبار تجديد الرخصه للمعلمين – رجال – الاختبار التخصصي - نوفمبر 2019",
+                TestHeadquarters:"جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/04/02 هـ-2019/11/29 مساءً",
+                CancellationDate:"1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
+            },
+            {
+                TestNaem:"اختبار المعلمين الجدد – رجال – الاختبار العام - نوفمبر 2017",
+                TestHeadquarters:" جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/03/28 هـ-2019/11/25 مساءً",
+                CancellationDate:" 1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
             },
         ],
         TestResult:[
             {
-                Test:"",
-                Result:"",
-                TestDate:"",
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:70,
+                TestDate:"1431/05/22 - 2010/05/06",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:56,
+                TestDate:"1431/01/14 - 2009/12/31",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:65,
+                TestDate:"1430/05/12 - 2009/05/07",
+
+            },
+            {
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:72,
+                TestDate:" 1430/01/11 - 2009/01/08",
+
             },
         ],
         date:"1/3/1432",
@@ -422,128 +532,113 @@ const user = [
         ],
          AvailableTest:[
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات المصلحين ديسمبر  2020م",  
+            RecordingStatus:"تسجيل متقدم",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار نواتج التعلم – جامعة الملك سعود – يوليو 2019",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي / انجليزي",
+            TestMechanism:"ورقي",
 
            },
            {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
+            TestNaem:"اختبار كفايات اللغة الإنجليزية لمرشحي الجامعة السعودية الإلكترونية – مايو 2019",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"محوسب",
 
            },
+           {
+            TestNaem:"الاختيار الوظيفي - اختبار القدرة المعرفية العامة – رجال – نوفمبر 2018م",   
+            RecordingStatus:"تسجيل مبكر",
+            Testlanguage:"عربي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"أختبار مستوى تحديد القدرات الجامعية - English Placement Test (EPT)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"انجليزي",
+            TestMechanism:"ورقي",
+
+           },
+           {
+            TestNaem:"اختبار القدرات العامة للجامعيين (على الحاسب الآلي)",   
+            RecordingStatus:"تسجيل متأخر",
+            Testlanguage:"عربي",
+            TestMechanism:"محوسب",
+
+           },
+
         ],
         RecordedTests:[
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار التخصصي - ربيع الثاني 1432هـ ",
+                TestHeadquarters:"جامعة حائل - كلية الطب",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:" 1432/04/15 هـ-2015/02/04 مساءا",
+                PaymentMethod:"تحويل بنكي",
 
             },
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار المعلمين - الاختبار العام - جمادى الاخرة  1436هـ",
+                TestHeadquarters:"جامعة حائل - كلية الحاسب الالي ونظم المعلومات",
+                TestMechanism:"ورقي",
+                AttendanceStatus:"حاضر",
+                RecordingStatus:"مغلق",
+                TestDate:"1436/06/12 هـ-2015/12/01 مساءا",
+                PaymentMethod:"ايداع صراف",
 
             },
         ],
         CanceledTest:[
             {
-                TestHeadquarters:"",
-                TestDate:"",
-                CancellationDate:"",
-                TestMechanism:"",
-                ReasonCancellation:"",  
+                TestNaem:"اختبار تجديد الرخصه للمعلمين – رجال – الاختبار التخصصي - نوفمبر 2019",
+                TestHeadquarters:"جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/04/02 هـ-2019/11/29 مساءً",
+                CancellationDate:"1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
+            },
+            {
+                TestNaem:"اختبار المعلمين الجدد – رجال – الاختبار العام - نوفمبر 2017",
+                TestHeadquarters:" جامعة ام القرى  - مركز المدرجات (مبنى 6)",
+                TestDate:"1441/03/28 هـ-2019/11/25 مساءً",
+                CancellationDate:" 1441/01/21 هـ-2019/09/20",
+                TestMechanism:"ورقي",
+                ReasonCancellation:"ملغي لعدم السداد",  
             },
         ],
         TestResult:[
             {
-                Test:"",
-                Result:"",
-                TestDate:"",
-            },
-        ],
-        date:"4/4/1438",
-        email:"Naser@gmail.com", 
-        userName:"Naser",
-        password:"0995511"
-    },
-    {
-        id:5,
-        name:"Abdallh",
-        RecordedTest:[
-            {
-                test:"",
-                day:"",
-            },
-        ],
-         AvailableTest:[
-           {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
-
-           },
-           {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
-
-           },
-           {
-            RecordingStatus:"",
-            Testlanguage:"",
-            TestMechanism:"",
-
-           },
-        ],
-        RecordedTests:[
-            {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:70,
+                TestDate:"1431/05/22 - 2010/05/06",
 
             },
             {
-                TestHeadquarters:"",
-                TestMechanism:"",
-                AttendanceStatus:"",
-                RecordingStatus:"",
-                TestDate:"",
-                PaymentMethod:"",
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:56,
+                TestDate:"1431/01/14 - 2009/12/31",
 
             },
-        ],
-        CanceledTest:[
             {
-                TestHeadquarters:"",
-                TestDate:"",
-                CancellationDate:"",
-                TestMechanism:"",
-                ReasonCancellation:"",  
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:65,
+                TestDate:"1430/05/12 - 2009/05/07",
+
             },
-        ],
-        TestResult:[
             {
-                Test:"",
-                Result:"",
-                TestDate:"",
+                TestNaem:"اختبار القدرات العامة للتخصصات العلمية",
+                Result:72,
+                TestDate:" 1430/01/11 - 2009/01/08",
+
             },
         ],
         date:"7/8/1440",
